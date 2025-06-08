@@ -30,7 +30,7 @@ streamlit run app.py
  
  http://localhost:8501
 
-##**🚀 Usage Guide**
+## **🚀 Usage Guide**
 
 **Stepwise Data Entry**:
 Enter candidate information field by field (name, email, etc.).

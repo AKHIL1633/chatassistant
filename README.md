@@ -1,6 +1,6 @@
-TalentScout Hiring Assistant
+# **TalentScout Hiring Assistant**
 
-📝 Project Overview
+## 📝 **Project Overview**
 
 TalentScout Hiring Assistant is an AI-powered chatbot built with Streamlit.
 It guides candidates step-by-step to enter their personal and professional details, collects their tech stack, and automatically generates tailored technical interview questions using a local Hugging Face language model.

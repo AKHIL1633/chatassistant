@@ -34,9 +34,13 @@ streamlit run app.py
 
 ## 📸 Demo
 
-![Candidate Info Form](pic1.png)
+<p align="center">
+  <img src="pic1.png" alt="Candidate Info Form" width="45%" style="display:inline-block; margin-right:10px;">
+  <img src="pic2.png" alt="Technical Questions Output" width="45%" style="display:inline-block;">
+</p>
 
-![Technical Questions Output](pic2.png)
+*Left: Step 1 – Candidate info entry. &nbsp;&nbsp;|&nbsp;&nbsp; Right: Step 2 – Tech stack & question generation.*
+
 
 
 **Stepwise Data Entry**:

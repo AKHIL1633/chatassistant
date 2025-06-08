@@ -2,35 +2,35 @@
 
 ## 📝 **Project Overview**
 
-TalentScout Hiring Assistant is an AI-powered chatbot built with Streamlit.
+TalentScout Hiring Assistant is an **AI-powered chatbot built with Streamlit**.
 It guides candidates step-by-step to enter their personal and professional details, collects their tech stack, and automatically generates tailored technical interview questions using a local Hugging Face language model.
 This ensures a smoother, more personalized candidate screening experience—while maintaining data privacy.
 
-🛠️ Installation Instructions
+## 🛠️ **Installation Instructions**
 
-Requirements:
+**Requirements:**
 
 Python 3.8 or above
 
-4GB+ RAM (recommended 8GB+ for smoother model loading)
+4GB+ RAM (**8GB+ recommended** for smoother model loading)
 
-#Steps:
+**Steps:**
 
-1)Clone or download the project folder.
+1)**Clone or download the project folder.**
 
-2)Install dependencies:
+2)**Install dependencies:** 
 
 pip install -r requirements.txt
 
-3)Run the application: 
+3)**Run the application**: 
 
 streamlit run app.py
 
-4)Open your browser to:
+4)**Open your browser to**:
  
  http://localhost:8501
 
-🚀 Usage Guide
+##**🚀 Usage Guide**
 
 Stepwise Data Entry:
 Enter candidate information field by field (name, email, etc.).

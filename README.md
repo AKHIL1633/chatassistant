@@ -73,7 +73,7 @@ Prompt design for LLM to generate relevant technical questions.
 
 No database/storage: All data handled in-memory for privacy.
 
-##**🧠 Prompt Design**
+## **🧠 Prompt Design**
 
 **Information Gathering:**
 Each candidate detail is collected individually, with prompts like
@@ -85,7 +85,7 @@ For each entered technology, the prompt is:
 This ensures the LLM returns relevant, scenario-based questions, rather than generic definitions.
 
 
-##**🏔️ Challenges & Solutions**
+## **🏔️ Challenges & Solutions**
 
 Model Size vs. Hardware Constraints:
 
@@ -98,17 +98,17 @@ Model Size vs. Hardware Constraints:
 
 **Solution:** Regex-based parsing to split questions, removing extra numbers for a clean display.
 
-Data Privacy Compliance:
+## **Data Privacy Compliance:**
 
-Challenge: Ensuring candidate data isn’t inadvertently stored or shared.
+**Challenge:** Ensuring candidate data isn’t inadvertently stored or shared.
 
-Solution: All data is handled in Streamlit’s session state (RAM only), with a privacy info banner shown to the user.
+**Solution:** All data is handled in Streamlit’s session state (RAM only), with a privacy info banner shown to the user.
 
-User Experience (UX):
+**User Experience (UX):**
 
-Challenge: Preventing users from skipping required info or being confused by too many fields at once.
+**Challenge:** Preventing users from skipping required info or being confused by too many fields at once.
 
-Solution: Stepwise field entry and clear status messages after each phase.
+**Solution:** Stepwise field entry and clear status messages after each phase.
 
 
 

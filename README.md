@@ -32,6 +32,14 @@ streamlit run app.py
 
 ## **🚀 Usage Guide**
 
+## 📸 Demo
+
+![Candidate Info Form](pic1.png)
+*Step 1: Candidate enters details, privacy notice is displayed.*
+
+![Technical Questions Output](pic2.png)
+*Step 2: Candidate enters tech stack and receives tailored interview questions.*
+
 **Stepwise Data Entry**:
 Enter candidate information field by field (name, email, etc.).
 

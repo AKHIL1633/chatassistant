@@ -47,7 +47,7 @@ Use the “Restart” button to clear data and start with a new candidate.
 **Privacy**:
 No data is stored or shared. All entries are session-based and cleared on restart.
 
-##**⚙️ Technical Details**
+## **⚙️ Technical Details**
 **Frontend**:
 Streamlit for rapid UI prototyping and deployment.
 

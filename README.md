@@ -32,30 +32,30 @@ streamlit run app.py
 
 ##**🚀 Usage Guide**
 
-Stepwise Data Entry:
+**Stepwise Data Entry**:
 Enter candidate information field by field (name, email, etc.).
 
-Tech Stack:
+**Tech Stack**:
 Input one or more technologies (comma-separated, e.g., Python, SQL, Django).
 
-Generate Questions:
+**Generate Questions**:
 Click the button to get 3–5 custom interview questions for each technology.
 
-Restart:
+**Restart**:
 Use the “Restart” button to clear data and start with a new candidate.
 
-Privacy:
+**Privacy**:
 No data is stored or shared. All entries are session-based and cleared on restart.
 
-⚙️ Technical Details
-Frontend:
+##**⚙️ Technical Details**
+**Frontend**:
 Streamlit for rapid UI prototyping and deployment.
 
-AI Model:
+**AI Model**:
 MBZUAI/LaMini-Flan-T5-783M (Hugging Face Transformers),
 a compact, instruction-tuned text2text LLM suitable for interview question generation.
 
-Libraries:
+**Libraries**:
 
 streamlit
 
@@ -65,7 +65,7 @@ torch
 
 re (for regex-based formatting)
 
-Architecture:
+**Architecture**:
 
 Stepwise candidate info collection (Streamlit session state).
 
@@ -73,31 +73,30 @@ Prompt design for LLM to generate relevant technical questions.
 
 No database/storage: All data handled in-memory for privacy.
 
-🧠 Prompt Design
+##**🧠 Prompt Design**
 
-Information Gathering:
+**Information Gathering:**
 Each candidate detail is collected individually, with prompts like
 “Enter your Full Name:” ensuring clear, sequential data entry.
 
-Technical Question Generation:
+**Technical Question Generation:**
 For each entered technology, the prompt is:
 “Generate 3 to 5 technical interview questions for a candidate skilled in [tech]. The questions should test core knowledge and real-world problem-solving.”
 This ensures the LLM returns relevant, scenario-based questions, rather than generic definitions.
 
 
-🏔️ Challenges & Solutions
+##**🏔️ Challenges & Solutions**
 
 Model Size vs. Hardware Constraints:
 
-Challenge: Large models (7B+) require high RAM/VRAM; not practical for all users.
+**Challenge:** Large models (7B+) require high RAM/VRAM; not practical for all users.
 
-Solution: Switched to LaMini-Flan-T5-783M, which is instruction-tuned and CPU-friendly.
+**Solution:** Switched to LaMini-Flan-T5-783M, which is instruction-tuned and CPU-friendly.
 
-Duplicate Numbering in Questions:
 
-Challenge: LLM sometimes returns numbered questions, which could overlap with UI numbering.
+**Challenge:** LLM sometimes returns numbered questions, which could overlap with UI numbering.
 
-Solution: Regex-based parsing to split questions, removing extra numbers for a clean display.
+**Solution:** Regex-based parsing to split questions, removing extra numbers for a clean display.
 
 Data Privacy Compliance:
 
